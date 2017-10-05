@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "(cd pages; yarn; yarn run build); (cd server; yarn)",
+    "start": "(cd server; yarn run start)"
+  },
+  "dependencies": {
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6"
+  }
+}
